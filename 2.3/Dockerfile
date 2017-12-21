@@ -1,5 +1,6 @@
 FROM ruby:2.3.5
-MAINTAINER Carlos Lopes <carlos.lopes@codeminer42.com>
+MAINTAINER Ivan Turkovic <ivan.turkovic@gmail.com>
+
 
 # Add Google Chrome PPA
 RUN curl -sS -o - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add - && \
